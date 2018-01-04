@@ -1,0 +1,236 @@
+/* General Styling */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+
+html  {
+  font-size: 16px;
+}
+
+body  {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(243,243,241,1);
+  color: rgba(30,30,30,1);
+}
+
+h1  {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+h2  {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3  {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+h4  {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h5  {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h6  {
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: .80rem;
+  font-weight: lighter;
+}
+
+/* Header Styling */
+header  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+}
+
+#colmar {
+  color: rgba(165,28,48,1);
+  font-weight: bold;
+}
+
+#academy {
+  color: rgba(30,30,30,1);
+  font-weight: normal;
+}
+
+.mobile-header-icons {
+  display: none;
+}
+
+.navigation a {
+  padding-left: 1rem;
+}
+
+.navigation a:hover {
+  font-weight: bold;
+  transition: font-weight .25s ease-out;
+}
+
+@media only screen and (max-width: 460px) {
+
+  .logo,
+  .navigation {
+    display: none;
+  }
+
+  .mobile-header-icons {
+    display: initial
+  }
+}
+
+/* First Container Styling */
+.first-banner {
+  background-color: rgba(186,197,198,1);
+  display: flex;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  overflow: hidden;
+}
+
+.first-banner img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+}
+
+.learn-div {
+  padding-left: 1.5rem;
+  width: 35%;
+}
+
+.learn-div h1 {
+  margin: 1.25rem auto;
+  color: rgba(165,28,48,1);
+  font-weight: bold;
+}
+
+.learn-div h4 {
+  margin: 1.25rem auto;
+  font-weight: bold;
+}
+
+.learn-div h5 {
+  margin: 1.25rem auto;
+  font-weight: normal;
+  text-align: center;
+  color: rgba(243,243,241,1);
+  background-color: rgba(30,30,30,1);
+  padding: .5rem;
+}
+
+.learn-div h5:hover {
+  background-color: rgba(140,129,121,.8);
+  color: rgba(30,30,30,1);
+  font-weight: bold;
+  transition: color .15s linear .2s,
+  background-color .15s linear .2s,
+  font-weight .15s linear .2s;
+}
+
+/* Second Container Styling */
+.second-container {
+  background-color: rgba(243,243,241,1);
+  display: flex;
+  padding: 2rem 1.5rem;
+}
+
+.container-left {
+  width: 60%;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+
+.container-left img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container-left h3 {
+  font-weight: bold;
+  margin: 2rem auto 1.5rem auto;
+}
+
+#orientation-mobile-image,
+#campus-mobile-image,
+#oliver-mobile-image {
+  display: none;
+}
+
+.container-right {
+  display: block;
+  width: 40%;
+}
+
+.small-list-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.small-list-container img {
+  width: 35%;
+  height: auto;
+}
+
+.small-list-text {
+  align-items: center;
+  padding-left: 1.5rem;
+  width: 65%;
+}
+
+#first-small {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.small-list-text h4 {
+  margin: .5rem auto;
+}
+
+.click-read {
+  color: blue;
+}
+
+.click-read:hover {
+  text-decoration: underline;
+}
+
+.click-read:visited {
+  color: red;
+}
+
+
+/* "learning" Styling */
+
+
+/* "Thesis Exhibit" Styling */
+
+.urban-container-left {
+  width: 60%;
+  overflow: hidden;
+}
+
+.urban-container-left video{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Footer Styling */
