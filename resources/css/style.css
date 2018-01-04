@@ -49,7 +49,6 @@ p {
 /* Header Styling */
 header  {
   position: fixed;
-  width: 100%;
   background-color: rgba(243,243,241,1);
   display: flex;
   justify-content: space-between;
