@@ -10,36 +10,38 @@
 
     <!-- START Header -->
     <header>
-      <div class="logo">
-        <img src="resources/images/ic-logo.svg" alt="Colmar Academy Logo">
-        <h4><span id="colmar">COLMAR</span><span id="academy">ACADEMY</span></h4>
+      <div class="header-main">
+        <div class="logo">
+          <img src="resources/images/ic-logo.svg" alt="Colmar Academy Logo">
+          <h4><span id="colmar">COLMAR</span><span id="academy">ACADEMY</span></h4>
+        </div>
+        <div class="navigation">
+          <nav>
+            <ul>
+              <a href="index.html">On Campus</a>
+              <a href="index.html">Online</a>
+              <a href="index.html">For Companies</a>
+              <a href="index.html">Sign In</a>
+            </ul>
+          </nav>
+        </div>
+        <a class="mobile-header-icons"
+           href="https://www.youtube.com/watch?v=oHg5SJYRHA0">
+          <img src="resources/images/ic-logo.svg" alt="">
+        </a>
+        <a class="mobile-header-icons"
+           href="https://www.youtube.com/watch?v=oHg5SJYRHA0">
+          <img src="resources/images/ic-online.svg" alt="">
+        </a>
+        <a class="mobile-header-icons"
+           href="https://www.youtube.com/watch?v=oHg5SJYRHA0">
+          <img src="resources/images/ic-on-campus.svg" alt="">
+        </a>
+        <a class="mobile-header-icons"
+           href="https://www.youtube.com/watch?v=oHg5SJYRHA0">
+          <img src="resources/images/ic-login.svg" alt="">
+        </a>
       </div>
-      <div class="navigation">
-        <nav>
-          <ul>
-            <a href="index.html">On Campus</a>
-            <a href="index.html">Online</a>
-            <a href="index.html">For Companies</a>
-            <a href="index.html">Sign In</a>
-          </ul>
-        </nav>
-      </div>
-      <a class="mobile-header-icons"
-         href="https://www.youtube.com/watch?v=oHg5SJYRHA0">
-        <img src="resources/images/ic-logo.svg" alt="">
-      </a>
-      <a class="mobile-header-icons"
-         href="https://www.youtube.com/watch?v=oHg5SJYRHA0">
-        <img src="resources/images/ic-online.svg" alt="">
-      </a>
-      <a class="mobile-header-icons"
-         href="https://www.youtube.com/watch?v=oHg5SJYRHA0">
-        <img src="resources/images/ic-on-campus.svg" alt="">
-      </a>
-      <a class="mobile-header-icons"
-         href="https://www.youtube.com/watch?v=oHg5SJYRHA0">
-        <img src="resources/images/ic-login.svg" alt="">
-      </a>
     </header>
 
     <!-- First Container -->
@@ -126,7 +128,7 @@
 
     <!-- START learning Container -->
     <div class="learning-container">
-      <h2>Start learning</h2>
+      <h2 id="start">Start learning</h2>
       <div class="courses">
         <div class="course-container">
           <img src="resources/images/course-software.jpg"
@@ -200,38 +202,42 @@
 
     <!-- START Thesis Exhibit -->
     <div class="thesis">
-      <h2>Thesis Exhibit</h2>
-      <div class="urban-container-left">
-        <video src="resources/video/thesis.mp4"
-               autoplay poster="resources/images/1.jpg"></video>
-        <h4>Reimagine urban</h4>
-        <p>
-          Curabitur vestibulum aliquam leo. Praesent egestas neque eu enim. In
-          hac habitasse platea dictumst. Fusce a quam. Etiam ut purus mattis
-          mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat
-          nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel,
-          lacus.
-        </p>
-      </div>
-      <div class="urban-container-right">
-        <div class="small-list-container">
-          <img src="resources/images/thesis-fisma.jpg"
-               alt="overhead view of desk with a mobile phone and papers">
-          <div class="small-list-text">
-            <h4>Fisma: Design and Prototype</h4>
-            <p>
-              Designer showcase of new prototype product
-            </p>
-          </div>
+      <h2 id="start">Thesis Exhibit</h2>
+      <div class="left-right-container">
+        <div class="urban-container-left">
+          <video src="resources/video/thesis.mp4"
+                 autoplay poster="resources/images/1.jpg"
+                 controls loop>
+          </video>
+          <h4>Reimagine urban</h4>
+          <p>
+            Curabitur vestibulum aliquam leo. Praesent egestas neque eu enim. In
+            hac habitasse platea dictumst. Fusce a quam. Etiam ut purus mattis
+            mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat
+            nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel,
+            lacus.
+          </p>
         </div>
-        <div class="small-list-container">
-          <img src="resources/images/thesis-now-and-then.jpg"
-               alt="aerial shot of empire state building in smog">
-          <div class="small-list-text">
-            <h4>Now and then</h4>
-            <p>
-              Reseach study about New York
-            </p>
+        <div class="urban-container-right">
+          <div class="small-list-container">
+            <img src="resources/images/thesis-fisma.jpg"
+                 alt="overhead view of desk with a mobile phone and papers">
+            <div class="small-list-text">
+              <h4>Fisma: Design and Prototype</h4>
+              <p>
+                Designer showcase of new prototype product
+              </p>
+            </div>
+          </div>
+          <div class="small-list-container">
+            <img src="resources/images/thesis-now-and-then.jpg"
+                 alt="aerial shot of empire state building in smog">
+            <div class="small-list-text">
+              <h4>Now and then</h4>
+              <p>
+                Reseach study about New York
+              </p>
+            </div>
           </div>
         </div>
       </div>
